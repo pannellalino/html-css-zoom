@@ -87,6 +87,7 @@ footer #same{
   display: inline-block;
   text-align: center;
   padding: 10px;
+  vertical-align: middle;
 }
 
 footer .share:active{
@@ -94,8 +95,8 @@ footer .share:active{
   cursor: pointer;
 }
 
-footer .mic::after{
-  content: "\f077";
+footer .fa-chevron-up{
+  font-size: .5rem;
 }
 
 footer .text{
