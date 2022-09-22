@@ -89,8 +89,13 @@ footer #same{
   padding: 10px;
 }
 
-footer .share{
+footer .share:active{
   color: lime;
+  cursor: pointer;
+}
+
+footer .mic::after{
+  content: "\f077";
 }
 
 footer .text{
